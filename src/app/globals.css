@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --scarlet: #b3263a;
+  --blush: #f6e7e4;
+  --cream: #fbf8f3;
+  --gold: #c9a45c;
+  --charcoal: #2b2b2b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--charcoal);
+  background: var(--cream);
+  font-family: var(--font-jost), sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--blush);
+  color: var(--charcoal);
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center min-h-touch px-7 bg-scarlet text-white font-medium tracking-wide transition-colors duration-300 hover:bg-[#9a1f32] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-scarlet disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center min-h-touch px-7 border border-charcoal/25 text-charcoal font-medium tracking-wide transition-colors duration-300 hover:border-scarlet hover:text-scarlet focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-scarlet;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center min-h-touch px-7 border border-gold text-charcoal font-medium tracking-wide transition-colors duration-300 hover:bg-gold/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold;
+  }
+
+  .section-label {
+    @apply font-body text-xs uppercase tracking-[0.22em] text-gold;
+  }
+
+  .input-field {
+    @apply w-full min-h-touch px-4 py-3 bg-white border border-charcoal/15 text-charcoal text-base placeholder:text-charcoal/40 focus:outline-none focus:border-gold transition-colors;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
