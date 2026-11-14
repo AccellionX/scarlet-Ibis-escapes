@@ -40,7 +40,7 @@ export const trips: Trip[] = [
     seatsTotal: 14,
     seatsRemaining: 6,
     image:
-      "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80",
     tagline: "Cliffside elegance above the Tyrrhenian Sea",
     description:
       "Eight nights along Italy’s most storied coastline — private villas overlooking Positano, leisurely lunches in Ravello, and a spa day framed by lemon groves. Designed for unhurried mornings and memorable evenings with your Naples friends.",
@@ -208,7 +208,7 @@ export const trips: Trip[] = [
     seatsTotal: 14,
     seatsRemaining: 0,
     image:
-      "https://images.unsplash.com/photo-1570077186671-e1bb9d1c2d8b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=1600&q=80",
     tagline: "Whitewashed calm above the caldera",
     description:
       "Seven nights in a caldera-view suite — sunset dinners in Oia, a private catamaran sail, and spa mornings designed for deep rest. This departure is currently full; join the waitlist to be first notified.",

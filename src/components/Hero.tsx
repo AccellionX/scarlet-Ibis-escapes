@@ -18,8 +18,8 @@ export default function Hero() {
         transition={{ duration: 8, ease: [0.22, 1, 0.36, 1] }}
       >
         <Image
-          src="https://images.unsplash.com/photo-1499793983690-e8b21beb4a1f?auto=format&fit=crop&w=2400&q=80"
-          alt="Luxury coastal villa overlooking the sea at golden hour"
+          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2400&q=80"
+          alt="Luxury resort pool overlooking turquoise water at golden hour"
           fill
           priority
           className="object-cover object-center"
@@ -27,7 +27,7 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/30 to-charcoal/15" />
+      <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/50 to-charcoal/30" />
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-5 pb-16 pt-36 md:px-8 md:pb-24 md:pt-40">
         <motion.div
